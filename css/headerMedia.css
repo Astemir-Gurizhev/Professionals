@@ -1,0 +1,39 @@
+@media (max-width: 1250px) {
+    .header {
+        position: fixed;
+        z-index: 10;
+    }
+    .header-row {
+        padding-left: 30px;
+    }
+    .header-menu {
+        transition: all 0.6s ease 0s;
+        width: 100%;
+        top: 0;
+        padding-bottom: 500px   ;
+        display: block;
+        background: #091f38f6;
+        padding: 170px 100px 5px 100px;
+        position: absolute;
+        left: 0;
+       border-bottom-right-radius: 30px;
+        display: none;
+
+        
+    }
+   .header-menu__active {
+    display: block;
+   }
+   .header-menu__item {
+    margin-bottom: 110px;
+   }
+   .header-menu__link {
+    font-size: 30px;
+   }
+    .header-burger {
+        display: block;
+        position: relative;
+        z-index: 10;
+    }
+   
+}

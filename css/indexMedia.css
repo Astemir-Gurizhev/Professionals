@@ -1,0 +1,43 @@
+@media (max-width: 1300px) {
+    .first {
+        padding-bottom: 150px;
+    }
+    .first-row {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-monik {
+        width: 40%;
+    }
+    .first-title {
+        margin-bottom: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .first-buttons {
+        margin-bottom: 50px;
+    }
+    .first-text {
+        text-align: center;
+    }
+    .solved {
+        padding: 30px;
+        bottom: 0;
+    }
+    .solved-row {
+        flex-direction: column;
+    }
+    .solved-left {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .solved-right__title {
+        text-align: center;
+    }
+    .solved-right__text {
+        text-align: center;
+    }
+}
